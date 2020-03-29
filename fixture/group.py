@@ -10,7 +10,7 @@ class GroupHelper:
         self.driver = self.app.driver
         self.driver.find_element(selenium.webdriver.common.by.By.LINK_TEXT, "groups").click()
 
-    def create_group(self, group):
+    def create(self, group):
         self.driver = self.app.driver
         self.open_group_page()
         # init group creation
