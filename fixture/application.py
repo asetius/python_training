@@ -1,5 +1,6 @@
-import selenium.webdriver.common.by
 from selenium import webdriver
+import selenium.webdriver.common.by
+from fixture.session import SessionHelper
 
 
 class Application:
@@ -7,16 +8,10 @@ class Application:
     def __init__(self):
         self.driver = webdriver.Firefox()
         self.vars = {}
+        self.session = SessionHelper(self)
 
     def open_home_page(self):
         self.driver.get("http://localhost/addressbook/")
-
-    def login(self, username, password):
-        self.open_home_page()
-        self.driver.find_element(selenium.webdriver.common.by.By.NAME, "user").send_keys(username)
-        self.driver.find_element(selenium.webdriver.common.by.By.NAME, "pass").click()
-        self.driver.find_element(selenium.webdriver.common.by.By.NAME, "pass").send_keys(password)
-        self.driver.find_element(selenium.webdriver.common.by.By.CSS_SELECTOR, "input:nth-child(7)").click()
 
     def open_group_page(self):
         self.driver.find_element(selenium.webdriver.common.by.By.LINK_TEXT, "groups").click()
@@ -38,9 +33,6 @@ class Application:
 
     def return_to_groups(self):
         self.driver.find_element(selenium.webdriver.common.by.By.LINK_TEXT, "group page").click()
-
-    def logout(self):
-        self.driver.find_element(selenium.webdriver.common.by.By.LINK_TEXT, "Logout").click()
 
     def destroy(self):
         self.driver.quit()
