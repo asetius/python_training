@@ -3,11 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="a9c779ba-ae7d-4790-a303-3cebc21e236f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fixture/application.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/application.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fixture/group.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/group.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fixture/session.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/session.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/group.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/group.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_del_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_del_group.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test_modify_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_modify_group.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_add_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_add_group.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,21 +37,21 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/test/test_modify_group.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/test/test_add_group.py" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\devel\python_training" />
-      <recent name="C:\devel\python_training\test" />
-      <recent name="C:\devel\python_training\fixture" />
-      <recent name="C:\devel\python_training\model" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\devel\testname" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\devel\python_training\test" />
+      <recent name="C:\devel\python_training" />
+      <recent name="C:\devel\python_training\fixture" />
+      <recent name="C:\devel\python_training\model" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in bin">
+  <component name="RunManager" selected="Python tests.pytest in test_add_group.py">
     <configuration name="test_add_group" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="testname" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -146,7 +147,22 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_add_group.py" type="tests" factoryName="py.test" nameIsGenerated="true">
+      <module name="testname" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\devel\python_training\env\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_add_group.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -185,6 +201,7 @@
       <item itemvalue="Python.test_add_name" />
       <item itemvalue="Python.test_del_group" />
       <item itemvalue="Python.test_modify_group" />
+      <item itemvalue="Python tests.pytest in test_add_group.py" />
       <item itemvalue="Python tests.pytest in test_modify_group.py" />
       <item itemvalue="Python tests.pytest in test_del_group.py" />
       <item itemvalue="Python tests.pytest in bin" />
@@ -216,34 +233,34 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="181" key="#Notifications/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585403620368" />
-    <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585478926512">
+    <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585498689118">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585478926512" />
+    <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585498689118" />
     <state x="686" y="145" key="#pytest_in_bin" timestamp="1585332359502">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="686" y="145" key="#pytest_in_bin/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585332359502" />
-    <state x="740" y="278" key="FileChooserDialogImpl" timestamp="1585478914173">
+    <state x="740" y="278" key="FileChooserDialogImpl" timestamp="1585498684868">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585478914173" />
-    <state width="1362" height="266" key="GridCell.Tab.0.bottom" timestamp="1585496811521">
+    <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585498684868" />
+    <state width="1362" height="266" key="GridCell.Tab.0.bottom" timestamp="1585501488233">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1362" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585496811521" />
-    <state width="1362" height="266" key="GridCell.Tab.0.center" timestamp="1585496811520">
+    <state width="1362" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585501488233" />
+    <state width="1362" height="266" key="GridCell.Tab.0.center" timestamp="1585501488232">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1362" height="266" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585496811520" />
-    <state width="1362" height="266" key="GridCell.Tab.0.left" timestamp="1585496811520">
+    <state width="1362" height="266" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585501488232" />
+    <state width="1362" height="266" key="GridCell.Tab.0.left" timestamp="1585501488232">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1362" height="266" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585496811520" />
-    <state width="1362" height="266" key="GridCell.Tab.0.right" timestamp="1585496811521">
+    <state width="1362" height="266" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585501488232" />
+    <state width="1362" height="266" key="GridCell.Tab.0.right" timestamp="1585501488233">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1362" height="266" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585496811521" />
+    <state width="1362" height="266" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585501488233" />
     <state width="1362" height="328" key="GridCell.Tab.1.bottom" timestamp="1585481372744">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
