@@ -1,19 +1,16 @@
-import selenium.webdriver.common.by
-
-
 class SessionHelper:
 
     def __init__(self, app):
         self.app = app
 
     def login(self, username, password):
-        self.driver = self.app.driver
+        wd = self.app.wd
         self.app.open_home_page()
-        self.driver.find_element(selenium.webdriver.common.by.By.NAME, "user").send_keys(username)
-        self.driver.find_element(selenium.webdriver.common.by.By.NAME, "pass").click()
-        self.driver.find_element(selenium.webdriver.common.by.By.NAME, "pass").send_keys(password)
-        self.driver.find_element(selenium.webdriver.common.by.By.CSS_SELECTOR, "input:nth-child(7)").click()
+        wd.find_element_by_name("user").send_keys(username)
+        wd.find_element_by_name("pass").click()
+        wd.find_element_by_name("pass").send_keys(password)
+        wd.find_element_by_css_selector("input:nth-child(7)").click()
 
     def logout(self):
-        self.driver = self.app.driver
-        self.driver.find_element(selenium.webdriver.common.by.By.LINK_TEXT, "Logout").click()
+        wd = self.app.wd
+        wd.find_element_by_link_text("Logout").click()
