@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9c779ba-ae7d-4790-a303-3cebc21e236f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/fixture/orm.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/check_db_connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/check_db_connection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fixture/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/db.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fixture/group.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/group.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_add_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_add_group.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_db_matches_ui.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_db_matches_ui.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_del_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_del_group.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +32,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ironpython_training" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
@@ -54,7 +46,7 @@
       <recent name="C:\devel\python_training\model" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.check_db_connection">
+  <component name="RunManager" selected="Python tests.pytest in test_db_matches_ui.py">
     <configuration name="check_db_connection" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="testname" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -303,26 +295,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="686" y="145" key="#pytest_in_bin/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585332359502" />
-    <state x="740" y="278" key="FileChooserDialogImpl" timestamp="1586025504973">
+    <state x="740" y="278" key="FileChooserDialogImpl" timestamp="1586450699478">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1586025504973" />
-    <state width="1362" height="266" key="GridCell.Tab.0.bottom" timestamp="1586429737641">
+    <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1586450699478" />
+    <state width="1362" height="266" key="GridCell.Tab.0.bottom" timestamp="1586450700958">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1362" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1586429737641" />
-    <state width="1362" height="266" key="GridCell.Tab.0.center" timestamp="1586429737641">
+    <state width="1362" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1586450700958" />
+    <state width="1362" height="266" key="GridCell.Tab.0.center" timestamp="1586450700958">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1362" height="266" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1586429737641" />
-    <state width="1362" height="266" key="GridCell.Tab.0.left" timestamp="1586429737641">
+    <state width="1362" height="266" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1586450700958" />
+    <state width="1362" height="266" key="GridCell.Tab.0.left" timestamp="1586450700957">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1362" height="266" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1586429737641" />
-    <state width="1362" height="266" key="GridCell.Tab.0.right" timestamp="1586429737641">
+    <state width="1362" height="266" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1586450700957" />
+    <state width="1362" height="266" key="GridCell.Tab.0.right" timestamp="1586450700958">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1362" height="266" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1586429737641" />
+    <state width="1362" height="266" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1586450700958" />
     <state width="1362" height="328" key="GridCell.Tab.1.bottom" timestamp="1585764150608">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
